@@ -1,0 +1,25 @@
+﻿Reference,Value,MPN_or_specification,Footprint,Side,Quantity,Notes
+J1,USB-C USB2.0,GCT USB4105-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,Bottom,1,"Bottom side, opens toward PCB +Y. Exact GCT USB4105-GF-A footprint required."
+U1,CH552G,CH552G,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Bottom,1,Bottom side CH552G SOP16. P1.5 sends 800kbit/s GRB; Rev A PWM firmware is incompatible.
+U2,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,Bottom,1,Bottom side; pins 1/6 and 3/4 are internally connected line pairs.
+D1,WS2812B-V5,"Worldsemi WS2812B-V5, 5050 PLCC4",LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,Top,1,"Centered at PCB (12.5,12.5). 1=VDD,2=DOUT NC,3=GND,4=DIN; corner notch at pin 3. GRB 800kbit/s, reset low >280us. Not the Rev A through-hole LED."
+R1,5.1k,0805 5.1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,
+R2,5.1k,0805 5.1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,
+R3,330,0805 330 ohm 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,DIN series resistor; not an LED current limiter.
+R4,100k,0805 100k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,DIN idle pull-down.
+R6,10k,0805 10k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,
+R7,10k,0805 10k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Bottom,1,
+C1,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,
+C2,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,
+C3,4.7uF,0805 4.7uF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,USB input bulk decoupling; total nominal rail capacitance 5.0uF.
+C4,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,
+JP1,BOOT (normally open),PCB touch pads,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,Bottom,1,Momentarily bridge during USB insertion; release after ISP enumeration. Do not solder closed.
+TP1,+5V,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP2,GND,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP3,PROG_SCS,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP4,PROG_MISO,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP5,PROG_SCK,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP6,RESET,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+H1,M2 / 2.2mm,M2 mounting hole,MountingHole:MountingHole_2.2mm_M2,Top,1,
+H2,M2 / 2.2mm,M2 mounting hole,MountingHole:MountingHole_2.2mm_M2,Top,1,
+C5,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,"Local RGB LED supply bypass, bottom side near D1 pin 1 via."

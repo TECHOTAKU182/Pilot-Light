@@ -1,0 +1,25 @@
+﻿Reference,Value,MPN_or_specification,Footprint,Side,Quantity,Notes
+J1,USB-C USB2.0,GCT USB4105-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,Top,1,Exact footprint required; USB-C socket is not interchangeable by appearance.
+U1,CH552G,CH552G,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Top,1,SOP16 150mil. Buy with factory USB ISP bootloader; do not substitute CH552T/E/P.
+U2,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,Bottom,1,Bottom side; pins 1/6 and 3/4 are internally connected line pairs.
+D1,WP154A4SUREQBFZGC,WP154A4SUREQBFZGC,LED_THT:LED_D5.0mm-4_RGB_Wide_Pins,Top,1,"Form 1.27mm native leads to 2.159mm PCB pitch with 3mm standoff. 1=R, 2=common K, 3=B, 4=G. Clear lens needs diffuser."
+R1,5.1k,0805 5.1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R2,5.1k,0805 5.1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R3,1k,0805 1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R4,1k,0805 1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R5,1k,0805 1k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R6,10k,0805 10k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+R7,10k,0805 10k 1% >=0.125W,Resistor_SMD:R_0805_2012Metric,Top,1,
+C1,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Top,1,
+C2,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Top,1,
+C3,1uF,0805 1uF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Top,1,
+C4,100nF,0805 100nF X7R 16V,Capacitor_SMD:C_0805_2012Metric,Bottom,1,
+JP1,BOOT (normally open),PCB touch pads,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,Bottom,1,Momentarily bridge during USB insertion; release after ISP enumeration. Do not solder closed.
+TP1,+5V,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP2,GND,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP3,PROG_SCS,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP4,PROG_MISO,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP5,PROG_SCK,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+TP6,RESET,PCB test pad,TestPoint:TestPoint_Pad_D1.0mm,Bottom,1,Programmer pads use 5V signaling; disconnect USB before external power.
+H1,M2 / 2.2mm,M2 mounting hole,MountingHole:MountingHole_2.2mm_M2,Top,1,
+H2,M2 / 2.2mm,M2 mounting hole,MountingHole:MountingHole_2.2mm_M2,Top,1,

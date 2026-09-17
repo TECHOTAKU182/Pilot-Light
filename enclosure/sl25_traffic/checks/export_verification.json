@@ -1,0 +1,58 @@
+{
+  "stl_reopen": {
+    "01_rear_cover.stl": "closed manifold mesh",
+    "02_front_housing.stl": "closed manifold mesh",
+    "03_signal_hood.stl": "closed manifold mesh",
+    "04_diffuser.stl": "closed manifold mesh"
+  },
+  "step_reopen": {
+    "01_rear_cover.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "02_front_housing.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "03_signal_hood.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "04_diffuser.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "SL25_Traffic_A_assembly.step": {
+      "valid": true,
+      "solids": 61
+    }
+  },
+  "preview_sizes": {
+    "assembly.png": [
+      1800,
+      1200
+    ],
+    "color_states.png": [
+      1440,
+      580
+    ],
+    "dimensions.png": [
+      1800,
+      1200
+    ],
+    "usb_underside.png": [
+      1100,
+      850
+    ]
+  },
+  "fcstd_visible_objects": [
+    "F034",
+    "F093",
+    "F087",
+    "F092",
+    "F094",
+    "F095",
+    "F096"
+  ],
+  "passed": true
+}

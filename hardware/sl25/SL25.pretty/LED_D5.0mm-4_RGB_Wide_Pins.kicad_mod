@@ -1,0 +1,249 @@
+(footprint "LED_D5.0mm-4_RGB_Wide_Pins"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
+	(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
+	(property "Reference" "REF**"
+		(at 3.2385 -3.96 0)
+		(layer "F.SilkS")
+		(uuid "5d728634-92cf-409e-ad49-08e8fac5aabc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D5.0mm-4_RGB_Wide_Pins"
+		(at 3.2385 3.96 0)
+		(layer "F.Fab")
+		(uuid "eaab198a-2657-49b8-bddb-055081e3258d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6601f144-20be-4157-805b-56e59c30b56f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "227d16b7-7be9-4a1f-8c97-05d126d86bfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.6785 -1.545)
+		(end 0.6785 -1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2564e919-cfcc-4f98-b5be-f24d16edf33e")
+	)
+	(fp_line
+		(start 0.6785 1.08)
+		(end 0.6785 1.545)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf231ddb-3f5c-4f12-a7ff-8d533d0895a4")
+	)
+	(fp_arc
+		(start 0.6785 -1.54483)
+		(mid 3.496956 -2.978809)
+		(end 6.026315 -1.080827)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cba2a100-d10d-43de-a177-84da1e522fa2")
+	)
+	(fp_arc
+		(start 0.983816 -1.08)
+		(mid 3.238262 -2.5)
+		(end 5.492979 -1.080429)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1948f5c1-bbd1-4f74-b0d9-45e86c28a44d")
+	)
+	(fp_arc
+		(start 5.492979 1.080429)
+		(mid 3.238262 2.5)
+		(end 0.983816 1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba83c2cf-03d6-43a0-82da-629bf8411434")
+	)
+	(fp_arc
+		(start 6.026315 1.080827)
+		(mid 3.496956 2.978808)
+		(end 0.6785 1.54483)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6eb9bb0c-0897-44b2-acb6-c79316e285e7")
+	)
+	(fp_line
+		(start -1.08 -3.25)
+		(end -1.08 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f685ce4d-44fc-4682-ab8b-a9d493d7442d")
+	)
+	(fp_line
+		(start -1.08 3.25)
+		(end 7.56 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adb1bc4a-9fc6-45dc-9d2e-3ae0467cefbd")
+	)
+	(fp_line
+		(start 7.56 -3.25)
+		(end -1.08 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad460290-64f2-4514-9d9d-7fb5f6753977")
+	)
+	(fp_line
+		(start 7.56 3.25)
+		(end 7.56 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44b28348-18ff-453c-b3a7-f24c23f7acf1")
+	)
+	(fp_line
+		(start 0.7385 -1.469694)
+		(end 0.7385 1.469694)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afcc89a3-53e0-4a9a-814e-57d936952921")
+	)
+	(fp_arc
+		(start 0.7385 -1.469694)
+		(mid 6.1385 0.000016)
+		(end 0.738484 1.469666)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff0fae35-06ed-43e2-9c17-25b480a1b965")
+	)
+	(fp_circle
+		(center 3.2385 0)
+		(end 5.7385 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e83cb4fd-0175-4c60-8fdd-0a489c5c7dbf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.2385 -3.96 0)
+		(layer "F.Fab")
+		(uuid "b1eefff8-ad30-4762-9d1b-6aa6d38de974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb6c751f-c7c6-4b55-b66d-dd76ba7cb1a3")
+	)
+	(pad "2" thru_hole circle
+		(at 2.159 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "830a36ec-d861-4ad9-b495-cba6c1910089")
+	)
+	(pad "3" thru_hole circle
+		(at 4.318 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b16d07d-d637-48af-aaf2-8ff0d88fb17a")
+	)
+	(pad "4" thru_hole circle
+		(at 6.477 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "880db7e2-e88e-4779-be7d-7df47625aba3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/LED_D5.0mm-4_RGB_Wide_Pins.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

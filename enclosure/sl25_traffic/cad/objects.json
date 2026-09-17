@@ -1,0 +1,42 @@
+{
+  "parts": {
+    "01_rear_cover": {
+      "object": "F034",
+      "color": [
+        0.94,
+        0.69,
+        0.1
+      ]
+    },
+    "02_front_housing": {
+      "object": "F087",
+      "color": [
+        0.19,
+        0.21,
+        0.23
+      ]
+    },
+    "03_signal_hood": {
+      "object": "F092",
+      "color": [
+        0.11,
+        0.12,
+        0.13
+      ]
+    },
+    "04_diffuser": {
+      "object": "F093",
+      "color": [
+        0.86,
+        0.94,
+        0.86
+      ]
+    }
+  },
+  "reference": "F094",
+  "fasteners": [
+    "F095",
+    "F096"
+  ],
+  "coordinate_system": "X right, Y up in front view, Z toward viewer. Rear at Z=0."
+}

@@ -1,0 +1,577 @@
+[
+  {
+    "ref": "J1",
+    "kind": "USB_C",
+    "value": "USB-C USB2.0",
+    "fp": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "xy": [
+      112.5,
+      121.15
+    ],
+    "sch": [
+      43.18,
+      53.34
+    ],
+    "nets": {
+      "A1": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND",
+      "SH": "GND",
+      "A4": "+5V",
+      "A9": "+5V",
+      "B4": "+5V",
+      "B9": "+5V",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "USB_DP",
+      "B6": "USB_DP",
+      "A7": "USB_DM",
+      "B7": "USB_DM",
+      "A8": null,
+      "B8": null
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "GCT USB4105-GF-A",
+    "note": "Exact footprint required; USB-C socket is not interchangeable by appearance.",
+    "uuid": "e16fdde1-c0ae-50ec-aa6a-63a67df76666"
+  },
+  {
+    "ref": "U1",
+    "kind": "CH552G",
+    "value": "CH552G",
+    "fp": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "xy": [
+      112.5,
+      110.7
+    ],
+    "sch": [
+      134.62,
+      58.42
+    ],
+    "nets": {
+      "15": "+5V",
+      "16": "V33",
+      "14": "GND",
+      "12": "USB_DP",
+      "13": "USB_DM",
+      "6": "RESET",
+      "7": null,
+      "8": null,
+      "3": "PWM_RED",
+      "11": "PWM_GREEN",
+      "9": "GPIO_BLUE",
+      "2": "PROG_SCS",
+      "4": "PROG_MISO",
+      "5": "PROG_SCK",
+      "1": null,
+      "10": null
+    },
+    "angle": 270,
+    "back": false,
+    "mpn": "CH552G",
+    "note": "SOP16 150mil. Buy with factory USB ISP bootloader; do not substitute CH552T/E/P.",
+    "uuid": "4092867f-ab42-5fd7-a589-32a88db4885e"
+  },
+  {
+    "ref": "U2",
+    "kind": "USBLC6",
+    "value": "USBLC6-2SC6",
+    "fp": "Package_TO_SOT_SMD:SOT-23-6",
+    "xy": [
+      112.5,
+      114.7
+    ],
+    "sch": [
+      43.18,
+      104.14
+    ],
+    "nets": {
+      "1": "USB_DP",
+      "6": "USB_DP",
+      "3": "USB_DM",
+      "4": "USB_DM",
+      "2": "GND",
+      "5": "+5V"
+    },
+    "angle": 270,
+    "back": true,
+    "mpn": "USBLC6-2SC6",
+    "note": "Bottom side; pins 1/6 and 3/4 are internally connected line pairs.",
+    "uuid": "35a2d8b2-51ea-5c16-a96d-31f724db0ecc"
+  },
+  {
+    "ref": "D1",
+    "kind": "RGB",
+    "value": "WP154A4SUREQBFZGC",
+    "fp": "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins",
+    "xy": [
+      109.2615,
+      103.5
+    ],
+    "sch": [
+      241.3,
+      53.34
+    ],
+    "nets": {
+      "1": "LED_RED",
+      "2": "GND",
+      "3": "LED_BLUE",
+      "4": "LED_GREEN"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "WP154A4SUREQBFZGC",
+    "note": "Form 1.27mm native leads to 2.159mm PCB pitch with 3mm standoff. 1=R, 2=common K, 3=B, 4=G. Clear lens needs diffuser.",
+    "uuid": "2deff463-3200-5f6c-9c55-fbf89a880393"
+  },
+  {
+    "ref": "R1",
+    "kind": "R",
+    "value": "5.1k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      105.1,
+      117.4
+    ],
+    "sch": [
+      43.18,
+      137.16
+    ],
+    "nets": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 5.1k 1% >=0.125W",
+    "note": "",
+    "uuid": "e420e103-210b-55f9-afee-21c0cf462a4c"
+  },
+  {
+    "ref": "R2",
+    "kind": "R",
+    "value": "5.1k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      120.2,
+      117.4
+    ],
+    "sch": [
+      43.18,
+      149.86
+    ],
+    "nets": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 5.1k 1% >=0.125W",
+    "note": "",
+    "uuid": "b7d17e74-df65-54a4-9cef-c4b0f3d0e597"
+  },
+  {
+    "ref": "R3",
+    "kind": "R",
+    "value": "1k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      103.0,
+      108.4
+    ],
+    "sch": [
+      200.66,
+      40.64
+    ],
+    "nets": {
+      "1": "PWM_RED",
+      "2": "LED_RED"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 1k 1% >=0.125W",
+    "note": "",
+    "uuid": "7ed5a97b-729d-5173-9336-0db03b1a8441"
+  },
+  {
+    "ref": "R4",
+    "kind": "R",
+    "value": "1k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      103.0,
+      111.5
+    ],
+    "sch": [
+      200.66,
+      66.04
+    ],
+    "nets": {
+      "1": "PWM_GREEN",
+      "2": "LED_GREEN"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 1k 1% >=0.125W",
+    "note": "",
+    "uuid": "66c15c8c-9fe0-57fd-a061-f607de8f0e61"
+  },
+  {
+    "ref": "R5",
+    "kind": "R",
+    "value": "1k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      103.0,
+      114.6
+    ],
+    "sch": [
+      200.66,
+      53.34
+    ],
+    "nets": {
+      "1": "GPIO_BLUE",
+      "2": "LED_BLUE"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 1k 1% >=0.125W",
+    "note": "",
+    "uuid": "76c04232-7eb3-5f8e-82aa-162fd47705ef"
+  },
+  {
+    "ref": "R6",
+    "kind": "R",
+    "value": "10k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      120.7,
+      114.4
+    ],
+    "sch": [
+      134.62,
+      137.16
+    ],
+    "nets": {
+      "1": "+5V",
+      "2": "BOOT_PULL"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 10k 1% >=0.125W",
+    "note": "",
+    "uuid": "e53e7f3b-6fb7-57bd-9126-2838e8e3cd32"
+  },
+  {
+    "ref": "R7",
+    "kind": "R",
+    "value": "10k",
+    "fp": "Resistor_SMD:R_0805_2012Metric",
+    "xy": [
+      106.5,
+      105.4
+    ],
+    "sch": [
+      134.62,
+      149.86
+    ],
+    "nets": {
+      "1": "RESET",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 10k 1% >=0.125W",
+    "note": "",
+    "uuid": "79c51842-1ea9-5cf0-8404-5f6222e1495a"
+  },
+  {
+    "ref": "C1",
+    "kind": "C",
+    "value": "100nF",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      120.7,
+      111.1
+    ],
+    "sch": [
+      134.62,
+      101.6
+    ],
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 100nF X7R 16V",
+    "note": "",
+    "uuid": "526bd647-8411-5c1c-9d9e-42bb24b65d3b"
+  },
+  {
+    "ref": "C2",
+    "kind": "C",
+    "value": "100nF",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      120.7,
+      108.0
+    ],
+    "sch": [
+      134.62,
+      114.3
+    ],
+    "nets": {
+      "1": "V33",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 100nF X7R 16V",
+    "note": "",
+    "uuid": "171d654f-17cf-583d-a460-790e007ff6a4"
+  },
+  {
+    "ref": "C3",
+    "kind": "C",
+    "value": "1uF",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      121.0,
+      121.0
+    ],
+    "sch": [
+      43.18,
+      162.56
+    ],
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": false,
+    "mpn": "0805 1uF X7R 16V",
+    "note": "",
+    "uuid": "0d3c22c7-9a47-5cb6-baf6-a842b03ca85a"
+  },
+  {
+    "ref": "C4",
+    "kind": "C",
+    "value": "100nF",
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "xy": [
+      108.7,
+      114.7
+    ],
+    "sch": [
+      43.18,
+      119.38
+    ],
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "0805 100nF X7R 16V",
+    "note": "",
+    "uuid": "9ed4ec77-e9a7-57df-9e3b-0b7063188185"
+  },
+  {
+    "ref": "JP1",
+    "kind": "Jumper",
+    "value": "BOOT (normally open)",
+    "fp": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+    "xy": [
+      120.7,
+      114.4
+    ],
+    "sch": [
+      170.18,
+      137.16
+    ],
+    "nets": {
+      "1": "BOOT_PULL",
+      "2": "USB_DP"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB touch pads",
+    "note": "Momentarily bridge during USB insertion; release after ISP enumeration. Do not solder closed.",
+    "uuid": "d9b806d8-b191-506c-88b6-c61509ba0792"
+  },
+  {
+    "ref": "TP1",
+    "kind": "TestPoint",
+    "value": "+5V",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      103,
+      121.5
+    ],
+    "sch": [
+      195.58,
+      111.76
+    ],
+    "nets": {
+      "1": "+5V"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "0f19504f-a62d-58bc-b6dc-5dd0d51cea81"
+  },
+  {
+    "ref": "TP2",
+    "kind": "TestPoint",
+    "value": "GND",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      105,
+      121.5
+    ],
+    "sch": [
+      220.98000000000002,
+      111.76
+    ],
+    "nets": {
+      "1": "GND"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "358dfa7d-cf4d-53ce-8e80-67fb62abc4eb"
+  },
+  {
+    "ref": "TP3",
+    "kind": "TestPoint",
+    "value": "PROG_SCS",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      106.5,
+      102.0
+    ],
+    "sch": [
+      246.38,
+      111.76
+    ],
+    "nets": {
+      "1": "PROG_SCS"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "dbfdcaa8-c1d4-5350-a485-f3842090535e"
+  },
+  {
+    "ref": "TP4",
+    "kind": "TestPoint",
+    "value": "PROG_MISO",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      109.0,
+      101.8
+    ],
+    "sch": [
+      195.58,
+      127.0
+    ],
+    "nets": {
+      "1": "PROG_MISO"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "af629b6b-9f52-5f1e-8ead-90d7423e69c2"
+  },
+  {
+    "ref": "TP5",
+    "kind": "TestPoint",
+    "value": "PROG_SCK",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      116.0,
+      101.8
+    ],
+    "sch": [
+      220.98000000000002,
+      127.0
+    ],
+    "nets": {
+      "1": "PROG_SCK"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "569701b0-ef8b-5914-8c6e-d12f994131bf"
+  },
+  {
+    "ref": "TP6",
+    "kind": "TestPoint",
+    "value": "RESET",
+    "fp": "TestPoint:TestPoint_Pad_D1.0mm",
+    "xy": [
+      118.5,
+      102.0
+    ],
+    "sch": [
+      246.38,
+      127.0
+    ],
+    "nets": {
+      "1": "RESET"
+    },
+    "angle": 0,
+    "back": true,
+    "mpn": "PCB test pad",
+    "note": "Programmer pads use 5V signaling; disconnect USB before external power.",
+    "uuid": "fc62422e-0605-57c6-ac85-5991f020cbde"
+  },
+  {
+    "ref": "H1",
+    "kind": "Mount",
+    "value": "M2 / 2.2mm",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "xy": [
+      102.7,
+      102.7
+    ],
+    "sch": [
+      200.66,
+      157.48
+    ],
+    "nets": {},
+    "angle": 0,
+    "back": false,
+    "mpn": "M2 mounting hole",
+    "note": "",
+    "uuid": "1b47d19a-aec2-5b04-92b5-3b20848b0d94"
+  },
+  {
+    "ref": "H2",
+    "kind": "Mount",
+    "value": "M2 / 2.2mm",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "xy": [
+      122.3,
+      102.7
+    ],
+    "sch": [
+      226.06,
+      157.48
+    ],
+    "nets": {},
+    "angle": 0,
+    "back": false,
+    "mpn": "M2 mounting hole",
+    "note": "",
+    "uuid": "d82c3102-f515-5a72-8d31-c6bab46252f1"
+  }
+]

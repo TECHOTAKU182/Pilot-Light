@@ -1,0 +1,13 @@
+{
+  "revision": "A",
+  "units": "mm",
+  "coordinate_convention": "PCB top view; origin at outline top-left; x right, y down",
+  "board": {"width":25.0,"height":25.0,"thickness":1.6,"corner_radius":1.0},
+  "enclosure_front_limit": {"width":30.0,"height":30.0},
+  "enclosure_depth_assumption":25.0,
+  "mounting_holes":[{"ref":"H1","x":2.7,"y":2.7,"diameter":2.2},{"ref":"H2","x":22.3,"y":2.7,"diameter":2.2}],
+  "led":{"ref":"D1","optical_center":[12.5,3.5],"body_diameter":5.0,"flange_diameter":5.9,"formed_lead_pitch":2.159,"body_standoff_target":3.0,"height_clearance_above_pcb_min":12.5},
+  "usb":{"ref":"J1","mpn":"GCT USB4105-GF-A","footprint_origin":[12.5,21.15],"insertion_direction":"+Y","body_width":8.94,"body_length":7.35,"height_above_pcb":3.31},
+  "bottom_components":["U2","C4"],
+  "notes":["STEP includes generic library models; compare with actual purchased parts before final enclosure printing.","A diffuser and mixing gap are required; no optical simulation has been performed.","Depth is a design assumption, not a user-confirmed limit."]
+}

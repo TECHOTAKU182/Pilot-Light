@@ -1,0 +1,21 @@
+{
+  "tool": "KiCad 10.0.6",
+  "revision": "A",
+  "status": "design_checks_passed_not_bench_tested",
+  "footprints": 24,
+  "copper_layers": 2,
+  "board_mm": [
+    25,
+    25,
+    1.6
+  ],
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "drc_violations": 0,
+  "unconnected_pads": 0,
+  "schematic_parity_issues": 0,
+  "critical_pinmap_checks": "passed",
+  "local_model_paths": "passed",
+  "step_contains_component_models": "passed",
+  "physical_validation": "not performed"
+}

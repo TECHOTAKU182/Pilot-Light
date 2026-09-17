@@ -1,0 +1,10 @@
+# Python build cache
+__pycache__/
+*.py[cod]
+
+# KiCad session and lock files
+*.kicad_prl
+*.lck
+
+# Historical KiCad recovery metadata
+.history/

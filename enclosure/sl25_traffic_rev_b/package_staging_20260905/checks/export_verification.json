@@ -1,0 +1,98 @@
+{
+  "stl_reopen": {
+    "01_rear_cover.stl": "closed manifold; bed at Z=0",
+    "02_front_housing.stl": "closed manifold; bed at Z=0",
+    "03_signal_hood.stl": "closed manifold; bed at Z=0",
+    "04_mixing_cup.stl": "closed manifold; bed at Z=0"
+  },
+  "step_reopen": {
+    "enclosure/sl25_traffic_rev_b/cad/01_rear_cover.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/02_front_housing.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/03_signal_hood.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/04_mixing_cup.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/05_diffusion_film.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/06_clear_protector.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/07_foam_gasket.step": {
+      "valid": true,
+      "solids": 1
+    },
+    "enclosure/sl25_traffic_rev_b/cad/SL25_Traffic_B_assembly.step": {
+      "valid": true,
+      "solids": 60
+    },
+    "hardware/sl25_rev_b/mechanical/sl25.step": {
+      "valid": true,
+      "solids": 51
+    }
+  },
+  "svg_cut_contours": {
+    "05_PET_diffusion_film_OD26_T0.2.svg": [
+      26.0
+    ],
+    "06_clear_PC_OD26_T0.5.svg": [
+      26.0
+    ],
+    "07_foam_ring_OD26_ID24_T0.5.svg": [
+      26.0,
+      24.0
+    ]
+  },
+  "previews": {
+    "enclosure/sl25_traffic_rev_b/preview/assembly.png": [
+      1800,
+      1200
+    ],
+    "enclosure/sl25_traffic_rev_b/preview/color_states.png": [
+      1440,
+      580
+    ],
+    "enclosure/sl25_traffic_rev_b/preview/dimensions.png": [
+      1800,
+      1200
+    ],
+    "enclosure/sl25_traffic_rev_b/preview/hood_profile.png": [
+      1500,
+      900
+    ],
+    "enclosure/sl25_traffic_rev_b/preview/usb_underside.png": [
+      1100,
+      850
+    ],
+    "hardware/sl25_rev_b/preview/board-bottom.png": [
+      1376,
+      1376
+    ],
+    "hardware/sl25_rev_b/preview/board-isometric.png": [
+      1376,
+      1376
+    ],
+    "hardware/sl25_rev_b/preview/board-top.png": [
+      1376,
+      1376
+    ]
+  },
+  "LED_STEP_center_mm": [
+    12.5,
+    -12.5
+  ],
+  "fcstd_visible_objects": 10,
+  "passed": true
+}
